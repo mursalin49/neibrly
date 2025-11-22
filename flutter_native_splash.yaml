@@ -1,0 +1,14 @@
+flutter_native_splash:
+  color: "#FDFDFD"
+  image: assets/images/Frame 2147228961 (2).png
+  #branding: assets/splash/meetup.png
+  #branding_bottom_padding: 20
+  android: true
+  ios: true
+
+  android_12:
+    image: assets/images/Frame 2147228961 (1).png
+    color: "#FDFDFD"
+    #branding: assets/splash/meetup.png
+    #branding_bottom_padding: 0
+    fullscreen: true

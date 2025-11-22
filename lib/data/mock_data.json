@@ -1,0 +1,459 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Appliance Repairs",
+      "description": "Professional appliance repair services for all major brands. Our certified technicians can fix refrigerators, washing machines, dryers, dishwashers, ovens, and more. We provide same-day service with a 90-day warranty on all repairs.",
+      "averagePrice": 85,
+      "image": "assets/images/appliance_repair.png",
+      "category": "Home Services",
+      "rating": 4.8,
+      "reviewCount": 1247,
+      "isPopular": true
+    },
+    {
+      "id": "2",
+      "title": "Furnace Repairs",
+      "description": "Expert furnace repair and maintenance services. We handle all types of furnaces including gas, electric, and oil furnaces. Our technicians are certified and provide emergency repair services 24/7.",
+      "averagePrice": 120,
+      "image": "assets/images/furnace_repair.png",
+      "category": "HVAC",
+      "rating": 4.9,
+      "reviewCount": 892,
+      "isPopular": true
+    },
+    {
+      "id": "3",
+      "title": "House Cleaning Services",
+      "description": "Professional house cleaning services for residential properties. We offer regular cleaning, deep cleaning, move-in/move-out cleaning, and post-construction cleanup. All our cleaners are bonded and insured.",
+      "averagePrice": 65,
+      "image": "assets/images/cleaning_services.png",
+      "category": "Cleaning",
+      "rating": 4.7,
+      "reviewCount": 2156,
+      "isPopular": true
+    },
+    {
+      "id": "4",
+      "title": "Plumbing Services",
+      "description": "Complete plumbing services including repairs, installations, and maintenance. We handle everything from leaky faucets to complete bathroom renovations. Licensed and insured plumbers available 24/7.",
+      "averagePrice": 95,
+      "image": "assets/images/plumbing.png",
+      "category": "Home Services",
+      "rating": 4.6,
+      "reviewCount": 1834,
+      "isPopular": false
+    },
+    {
+      "id": "5",
+      "title": "Electrical Services",
+      "description": "Licensed electricians providing electrical repairs, installations, and maintenance. We handle everything from simple outlet repairs to complete electrical system upgrades. All work is guaranteed and up to code.",
+      "averagePrice": 110,
+      "image": "assets/images/electrical.png",
+      "category": "Home Services",
+      "rating": 4.8,
+      "reviewCount": 967,
+      "isPopular": false
+    },
+    {
+      "id": "6",
+      "title": "Landscaping Services",
+      "description": "Professional landscaping and lawn care services. We provide lawn maintenance, tree trimming, garden design, irrigation installation, and seasonal cleanup services.",
+      "averagePrice": 75,
+      "image": "assets/images/landscaping.png",
+      "category": "Outdoor",
+      "rating": 4.5,
+      "reviewCount": 1456,
+      "isPopular": false
+    }
+  ],
+  "bundles": [
+    {
+      "id": "1",
+      "title": "Home Maintenance Bundle",
+      "description": "Complete home maintenance package including appliance repair, plumbing, and electrical services",
+      "originalPrice": 300,
+      "discountedPrice": 240,
+      "discountPercentage": 20,
+      "participants": 8,
+      "maxParticipants": 10,
+      "expiryDate": "2024-02-15",
+      "category": "Home Services",
+      "image": "assets/images/home_bundle.png",
+      "provider": {
+        "name": "Jacob Brothers",
+        "rating": 5.0,
+        "reviewCount": 1513,
+        "avatar": "assets/images/jane.png"
+      },
+      "benefits": [
+        "20% discount on all services",
+        "Priority scheduling",
+        "Extended warranty coverage",
+        "Free consultation"
+      ],
+      "isExpired": false,
+      "isJoined": false
+    },
+    {
+      "id": "2",
+      "title": "Spring Cleaning Special",
+      "description": "Deep cleaning package for spring season including interior and exterior cleaning",
+      "originalPrice": 200,
+      "discountedPrice": 150,
+      "discountPercentage": 25,
+      "participants": 12,
+      "maxParticipants": 15,
+      "expiryDate": "2024-03-20",
+      "category": "Cleaning",
+      "image": "assets/images/cleaning_bundle.png",
+      "provider": {
+        "name": "CleanPro Services",
+        "rating": 4.8,
+        "reviewCount": 892,
+        "avatar": "assets/images/jane.png"
+      },
+      "benefits": [
+        "25% discount on cleaning services",
+        "Eco-friendly products",
+        "Satisfaction guarantee",
+        "Free estimate"
+      ],
+      "isExpired": false,
+      "isJoined": false
+    },
+    {
+      "id": "3",
+      "title": "HVAC Maintenance Package",
+      "description": "Complete HVAC maintenance including furnace repair, AC service, and duct cleaning",
+      "originalPrice": 400,
+      "discountedPrice": 320,
+      "discountPercentage": 20,
+      "participants": 5,
+      "maxParticipants": 8,
+      "expiryDate": "2024-01-30",
+      "category": "HVAC",
+      "image": "assets/images/hvac_bundle.png",
+      "provider": {
+        "name": "Climate Control Experts",
+        "rating": 4.9,
+        "reviewCount": 634,
+        "avatar": "assets/images/jane.png"
+      },
+      "benefits": [
+        "20% discount on HVAC services",
+        "Annual maintenance plan",
+        "Emergency service priority",
+        "Energy efficiency consultation"
+      ],
+      "isExpired": false,
+      "isJoined": true
+    }
+  ],
+  "providers": [
+    {
+      "id": "1",
+      "name": "Jacob Brothers",
+      "rating": 5.0,
+      "reviewCount": 1513,
+      "status": "Online Now",
+      "location": "12 similar jobs done near you",
+      "price": "$63/hr estimated budget",
+      "review": "Jacob says, \"the repair person come on time, diagnosed and fixed the issue with my leaking wa...\"",
+      "avatar": "assets/images/jane.png",
+      "services": [
+        "Appliance Repairs",
+        "Furnace Repairs",
+        "House Cleaning Services"
+      ],
+      "responseTime": "10 minutes",
+      "isAvailable": true,
+      "specialties": ["Appliance Repair", "HVAC", "General Maintenance"],
+      "yearsExperience": 8,
+      "certifications": ["Certified Appliance Technician", "HVAC License"],
+      "languages": ["English", "Spanish"],
+      "workingHours": "Mon-Fri: 8AM-6PM, Sat: 9AM-4PM"
+    },
+    {
+      "id": "2",
+      "name": "Mike's Handyman Services",
+      "rating": 4.7,
+      "reviewCount": 892,
+      "status": "Online Now",
+      "location": "8 similar jobs done near you",
+      "price": "$55/hr estimated budget",
+      "review": "Mike provides excellent service and always explains what needs to be done before starting work.",
+      "avatar": "assets/images/jane.png",
+      "services": [
+        "Plumbing Services",
+        "Electrical Services",
+        "General Repairs"
+      ],
+      "responseTime": "15 minutes",
+      "isAvailable": true,
+      "specialties": ["Plumbing", "Electrical", "Carpentry"],
+      "yearsExperience": 12,
+      "certifications": ["Licensed Plumber", "Certified Electrician"],
+      "languages": ["English"],
+      "workingHours": "Mon-Sun: 7AM-8PM"
+    },
+    {
+      "id": "3",
+      "name": "CleanPro Services",
+      "rating": 4.8,
+      "reviewCount": 2156,
+      "status": "Busy",
+      "location": "15 similar jobs done near you",
+      "price": "$45/hr estimated budget",
+      "review": "Professional cleaning service with attention to detail. Highly recommend for regular maintenance.",
+      "avatar": "assets/images/jane.png",
+      "services": [
+        "House Cleaning Services",
+        "Deep Cleaning",
+        "Move-in/Move-out Cleaning"
+      ],
+      "responseTime": "20 minutes",
+      "isAvailable": false,
+      "specialties": ["Residential Cleaning", "Commercial Cleaning", "Post-Construction Cleanup"],
+      "yearsExperience": 6,
+      "certifications": ["Bonded & Insured", "Green Cleaning Certified"],
+      "languages": ["English", "French"],
+      "workingHours": "Mon-Fri: 7AM-5PM, Sat: 8AM-2PM"
+    }
+  ],
+  "clientFeedback": [
+    {
+      "id": "1",
+      "clientName": "Jessica R",
+      "clientImage": "assets/images/jessica.png",
+      "rating": 4.0,
+      "comment": "Thank you for your work! The service met my expectations and I'm very happy. The technician was professional and completed the job efficiently. I would definitely recommend this service to others.",
+      "date": "2024-01-15",
+      "serviceType": "Appliance Repair",
+      "providerId": "1",
+      "isExpanded": false
+    },
+    {
+      "id": "2",
+      "clientName": "Maria Gosh",
+      "clientImage": "assets/images/maria.png",
+      "rating": 2.0,
+      "comment": "Service was okay but could be better. The technician arrived late and the work quality was average. Not sure if I would use this service again.",
+      "date": "2023-12-18",
+      "serviceType": "Furnace Repair",
+      "providerId": "1",
+      "isExpanded": false
+    },
+    {
+      "id": "3",
+      "clientName": "Ethan Lert",
+      "clientImage": "assets/images/ethan.png",
+      "rating": 3.0,
+      "comment": "Good work overall, minor issues with timing. The technician was friendly and the final result was satisfactory.",
+      "date": "2023-11-25",
+      "serviceType": "House Cleaning",
+      "providerId": "3",
+      "isExpanded": false
+    },
+    {
+      "id": "4",
+      "clientName": "Sarah Johnson",
+      "clientImage": "assets/images/sarah.png",
+      "rating": 5.0,
+      "comment": "Excellent service! Very professional and quick. The technician explained everything clearly and the work was done perfectly. Highly recommended!",
+      "date": "2024-01-10",
+      "serviceType": "Plumbing",
+      "providerId": "2",
+      "isExpanded": false
+    },
+    {
+      "id": "5",
+      "clientName": "Mike Wilson",
+      "clientImage": "assets/images/mike_wilson.png",
+      "rating": 4.0,
+      "comment": "Great service and fair pricing. The technician was knowledgeable and fixed the issue quickly. Will definitely use again.",
+      "date": "2024-01-08",
+      "serviceType": "Electrical",
+      "providerId": "2",
+      "isExpanded": false
+    },
+    {
+      "id": "6",
+      "clientName": "Lisa Brown",
+      "clientImage": "assets/images/lisa.png",
+      "rating": 1.0,
+      "comment": "Very disappointed with the service. The technician was unprofessional and the work was not completed properly. Had to call someone else to fix the issues.",
+      "date": "2023-12-10",
+      "serviceType": "Appliance Repair",
+      "providerId": "1",
+      "isExpanded": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Home Services",
+      "icon": "assets/icons/home.svg",
+      "color": "#0E7A60",
+      "serviceCount": 15
+    },
+    {
+      "id": "2",
+      "name": "Cleaning",
+      "icon": "assets/icons/cleaning.svg",
+      "color": "#4CAF50",
+      "serviceCount": 8
+    },
+    {
+      "id": "3",
+      "name": "HVAC",
+      "icon": "assets/icons/hvac.svg",
+      "color": "#FF9800",
+      "serviceCount": 6
+    },
+    {
+      "id": "4",
+      "name": "Outdoor",
+      "icon": "assets/icons/outdoor.svg",
+      "color": "#8BC34A",
+      "serviceCount": 12
+    },
+    {
+      "id": "5",
+      "name": "Plumbing",
+      "icon": "assets/icons/plumbing.svg",
+      "color": "#2196F3",
+      "serviceCount": 10
+    },
+    {
+      "id": "6",
+      "name": "Electrical",
+      "icon": "assets/icons/electrical.svg",
+      "color": "#FFC107",
+      "serviceCount": 7
+    }
+  ],
+  "userProfile": {
+    "id": "user_123",
+    "name": "John Doe",
+    "email": "john.doe@email.com",
+    "phone": "+1 (555) 123-4567",
+    "avatar": "assets/images/user_avatar.png",
+    "address": {
+      "street": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "preferences": {
+      "notifications": true,
+      "emailUpdates": true,
+      "smsUpdates": false,
+      "language": "en",
+      "currency": "USD"
+    },
+    "joinedBundles": ["3"],
+    "favoriteProviders": ["1", "2"],
+    "serviceHistory": [
+      {
+        "id": "service_1",
+        "serviceType": "Appliance Repair",
+        "providerId": "1",
+        "date": "2024-01-10",
+        "status": "completed",
+        "rating": 5,
+        "cost": 85
+      },
+      {
+        "id": "service_2",
+        "serviceType": "House Cleaning",
+        "providerId": "3",
+        "date": "2023-12-15",
+        "status": "completed",
+        "rating": 4,
+        "cost": 65
+      }
+    ]
+  },
+  "appSettings": {
+    "version": "1.0.0",
+    "minSupportedVersion": "1.0.0",
+    "apiBaseUrl": "https://api.naibrly.com",
+    "supportEmail": "support@naibrly.com",
+    "supportPhone": "+1 (555) 123-4567",
+    "termsOfService": "https://naibrly.com/terms",
+    "privacyPolicy": "https://naibrly.com/privacy",
+    "features": {
+      "bundlesEnabled": true,
+      "chatEnabled": true,
+      "videoCallEnabled": false,
+      "paymentEnabled": true,
+      "ratingEnabled": true
+    },
+    "defaultSettings": {
+      "currency": "USD",
+      "language": "en",
+      "theme": "light",
+      "notifications": true
+    }
+  },
+  "notifications": [
+    {
+      "id": "notif_1",
+      "title": "Bundle Available",
+      "message": "New HVAC Maintenance Package available with 20% discount",
+      "type": "bundle",
+      "isRead": false,
+      "timestamp": "2024-01-20T10:30:00Z",
+      "actionUrl": "/bundles/3"
+    },
+    {
+      "id": "notif_2",
+      "title": "Service Completed",
+      "message": "Your appliance repair service has been completed by Jacob Brothers",
+      "type": "service",
+      "isRead": true,
+      "timestamp": "2024-01-18T14:20:00Z",
+      "actionUrl": "/services/completed/1"
+    },
+    {
+      "id": "notif_3",
+      "title": "Payment Received",
+      "message": "Payment of $85.00 has been processed successfully",
+      "type": "payment",
+      "isRead": false,
+      "timestamp": "2024-01-17T09:15:00Z",
+      "actionUrl": "/payments/history"
+    }
+  ],
+  "locations": [
+    {
+      "id": "1",
+      "name": "Downtown",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "serviceCount": 45,
+      "providerCount": 12
+    },
+    {
+      "id": "2",
+      "name": "Midtown",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10018",
+      "serviceCount": 38,
+      "providerCount": 9
+    },
+    {
+      "id": "3",
+      "name": "Brooklyn Heights",
+      "city": "Brooklyn",
+      "state": "NY",
+      "zipCode": "11201",
+      "serviceCount": 52,
+      "providerCount": 15
+    }
+  ]
+}
